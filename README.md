@@ -7,8 +7,8 @@ This is a collection of scripts performing most of the analysis reported in Tesi
 **o Downloading TOGA gene nucleotide sequence alignments** 
 `TOGA_downloading.sh` – downloading TOGA gene alignments based on the list of immune genes *(immune_gene_filelist.txt)*
 
-**o Removing gappy columns from the alignment**
-CIAlign
+**o CIAlign: Removing gappy columns from the alignment **
+
 `CIAlign_filtering.sh` – After filtering out unnecessary species from the original TOGA alignment, many columns containing only gaps remain in the alignment. This script removes those columns. Only manual trimming of poorly aligned ends remains, after which the alignments are ready for selection analysis. CIAlign can also perform this step, but it does not preserve the open reading frame.
 
 ## Positive selection analysis ###
